@@ -20,5 +20,15 @@ More specifically, the assignemnt requires the student author an R program that 
 
 ## Usage
 
-TBC
+There is a set of six programs that each generates a plot:
 
+1. `source("./plot1.R")` produces `plot1.png`
+2. `source("./plot2.R")` produces `plot2.png`
+3. `source("./plot3.R")` produces `plot3.png`
+4. `source("./plot4.R")` produces `plot4.png`
+5. `source("./plot5.R")` produces `plot5.png`
+6. `source("./plot6.R")` produces `plot6.png`
+
+`prepare_data.R` is a utility program that downloads and prepares the data. All six of the above programs use it.
+
+Run `source("./generate_plots.R")` to generate all plots.
